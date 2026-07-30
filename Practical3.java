@@ -18,7 +18,8 @@ public class Practical3 {
 		}
 		ArrayList<String> wordsEndingWithED=new ArrayList<>();
 		for(String word:words) {
-			if(word.toUpperCase().endsWith("ED")) {
+			if(word.toUpperCase().endsWith("ED"))
+             {
 				wordsEndingWithED.add(word);
 			}
 			}
